@@ -1,2 +1,2 @@
 # homeassistant
-Home Assistant with google-chrome driver for web scraping
+Home Assistant with google-chrome and chromedriver for web scraping
