@@ -4,12 +4,12 @@ FROM homeassistant/home-assistant:stable
 RUN echo @edge http://nl.alpinelinux.org/alpine/edge/community >> /etc/apk/repositories \
     && echo @edge http://nl.alpinelinux.org/alpine/edge/main >> /etc/apk/repositories \
     && apk add --no-cache \
-    chromium@edge \
-    chromium-chromedriver@edge \
-    harfbuzz@edge \
-    nss@edge \
-    freetype@edge \
-    ttf-freefont@edge \
+    chromium \
+    chromium-chromedriver \
+    harfbuzz \
+    nss \
+    freetype \
+    ttf-freefont \
     && rm -rf /var/cache/* \
     && mkdir /var/cache/apk
 
